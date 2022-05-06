@@ -17,7 +17,7 @@
     // Get Randomnumbers
     public function read() {
       // Generate query
-      $query = 'SELECT * FROM ';
+      $query = 'SELECT * FROM ' . $this->table . ' ';
       
       // Prepare statement
       $stmt = $this->conn->prepare($query);
