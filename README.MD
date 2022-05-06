@@ -12,7 +12,9 @@ https://github.com/bradtraversy/php_rest_myblog
 3
 Меняем create && readsingle на generate() и retrieve(id)
 
-пути 
+план выполнен 
+
+пути для проверки апи
 
 http://localhost/phpSimpleRestApi/api/randomnumber/generate.php
 http://localhost/phpSimpleRestApi/api/randomnumber/read.php
